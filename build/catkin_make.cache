@@ -1,0 +1,2 @@
+novatel_span_driver-serial_connection/novatel_msgs:novatel_span_driver-serial_connection/novatel_span_driver
+-DCATKIN_DEVEL_PREFIX=/home/wenws/16_novatel_span_driver/devel -DCMAKE_INSTALL_PREFIX=/home/wenws/16_novatel_span_driver/install -G Unix Makefiles

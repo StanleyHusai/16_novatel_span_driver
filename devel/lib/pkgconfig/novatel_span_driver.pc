@@ -1,0 +1,8 @@
+prefix=/home/wenws/16_novatel_span_driver/devel
+
+Name: novatel_span_driver
+Description: Description of novatel_span_driver
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/wenws/16_novatel_span_driver/devel/lib 
+Requires: 

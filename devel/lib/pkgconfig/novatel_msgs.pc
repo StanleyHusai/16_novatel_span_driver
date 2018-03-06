@@ -1,0 +1,8 @@
+prefix=/home/wenws/16_novatel_span_driver/devel
+
+Name: novatel_msgs
+Description: Description of novatel_msgs
+Version: 1.0.0
+Cflags: -I/home/wenws/16_novatel_span_driver/devel/include
+Libs: -L/home/wenws/16_novatel_span_driver/devel/lib 
+Requires: geometry_msgs message_runtime nav_msgs std_msgs
