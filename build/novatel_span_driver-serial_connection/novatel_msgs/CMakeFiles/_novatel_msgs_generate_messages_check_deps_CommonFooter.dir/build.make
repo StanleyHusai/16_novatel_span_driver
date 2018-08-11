@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wenws/16_novatel_span_driver/src
+CMAKE_SOURCE_DIR = /home/husai/16_novatel_span_driver/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wenws/16_novatel_span_driver/build
+CMAKE_BINARY_DIR = /home/husai/16_novatel_span_driver/build
 
 # Utility rule file for _novatel_msgs_generate_messages_check_deps_CommonFooter.
 
@@ -46,7 +46,7 @@ CMAKE_BINARY_DIR = /home/wenws/16_novatel_span_driver/build
 include novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/_novatel_msgs_generate_messages_check_deps_CommonFooter.dir/progress.make
 
 novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/_novatel_msgs_generate_messages_check_deps_CommonFooter:
-	cd /home/wenws/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/jade/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py novatel_msgs /home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonFooter.msg 
+	cd /home/husai/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/jade/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py novatel_msgs /home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonFooter.msg 
 
 _novatel_msgs_generate_messages_check_deps_CommonFooter: novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/_novatel_msgs_generate_messages_check_deps_CommonFooter
 _novatel_msgs_generate_messages_check_deps_CommonFooter: novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/_novatel_msgs_generate_messages_check_deps_CommonFooter.dir/build.make
@@ -57,10 +57,10 @@ novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/_novatel_msgs_gene
 .PHONY : novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/_novatel_msgs_generate_messages_check_deps_CommonFooter.dir/build
 
 novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/_novatel_msgs_generate_messages_check_deps_CommonFooter.dir/clean:
-	cd /home/wenws/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_novatel_msgs_generate_messages_check_deps_CommonFooter.dir/cmake_clean.cmake
+	cd /home/husai/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_novatel_msgs_generate_messages_check_deps_CommonFooter.dir/cmake_clean.cmake
 .PHONY : novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/_novatel_msgs_generate_messages_check_deps_CommonFooter.dir/clean
 
 novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/_novatel_msgs_generate_messages_check_deps_CommonFooter.dir/depend:
-	cd /home/wenws/16_novatel_span_driver/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wenws/16_novatel_span_driver/src /home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs /home/wenws/16_novatel_span_driver/build /home/wenws/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_msgs /home/wenws/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/_novatel_msgs_generate_messages_check_deps_CommonFooter.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/husai/16_novatel_span_driver/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/husai/16_novatel_span_driver/src /home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs /home/husai/16_novatel_span_driver/build /home/husai/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_msgs /home/husai/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/_novatel_msgs_generate_messages_check_deps_CommonFooter.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/_novatel_msgs_generate_messages_check_deps_CommonFooter.dir/depend
 

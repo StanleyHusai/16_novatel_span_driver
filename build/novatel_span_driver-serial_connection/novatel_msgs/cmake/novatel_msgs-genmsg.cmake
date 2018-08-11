@@ -2,7 +2,7 @@
 
 message(STATUS "novatel_msgs: 7 messages, 0 services")
 
-set(MSG_I_FLAGS "-Inovatel_msgs:/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg;-Igeometry_msgs:/opt/ros/jade/share/geometry_msgs/cmake/../msg;-Istd_msgs:/opt/ros/jade/share/std_msgs/cmake/../msg;-Inav_msgs:/opt/ros/jade/share/nav_msgs/cmake/../msg;-Iactionlib_msgs:/opt/ros/jade/share/actionlib_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Inovatel_msgs:/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg;-Igeometry_msgs:/opt/ros/jade/share/geometry_msgs/cmake/../msg;-Istd_msgs:/opt/ros/jade/share/std_msgs/cmake/../msg;-Inav_msgs:/opt/ros/jade/share/nav_msgs/cmake/../msg;-Iactionlib_msgs:/opt/ros/jade/share/actionlib_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -16,39 +16,39 @@ add_custom_target(novatel_msgs_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/BESTPOS.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSCOV.msg" NAME_WE)
 add_custom_target(_novatel_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "novatel_msgs" "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/BESTPOS.msg" "novatel_msgs/CommonHeader"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "novatel_msgs" "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSCOV.msg" "novatel_msgs/CommonHeader"
 )
 
-get_filename_component(_filename "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSPVAX.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CORRIMUDATA.msg" NAME_WE)
 add_custom_target(_novatel_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "novatel_msgs" "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSPVAX.msg" "novatel_msgs/CommonHeader"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "novatel_msgs" "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CORRIMUDATA.msg" "novatel_msgs/CommonHeader"
 )
 
-get_filename_component(_filename "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/Ack.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg" NAME_WE)
 add_custom_target(_novatel_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "novatel_msgs" "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/Ack.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "novatel_msgs" "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg" ""
 )
 
-get_filename_component(_filename "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/BESTPOS.msg" NAME_WE)
 add_custom_target(_novatel_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "novatel_msgs" "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "novatel_msgs" "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/BESTPOS.msg" "novatel_msgs/CommonHeader"
 )
 
-get_filename_component(_filename "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonFooter.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonFooter.msg" NAME_WE)
 add_custom_target(_novatel_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "novatel_msgs" "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonFooter.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "novatel_msgs" "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonFooter.msg" ""
 )
 
-get_filename_component(_filename "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CORRIMUDATA.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/Ack.msg" NAME_WE)
 add_custom_target(_novatel_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "novatel_msgs" "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CORRIMUDATA.msg" "novatel_msgs/CommonHeader"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "novatel_msgs" "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/Ack.msg" ""
 )
 
-get_filename_component(_filename "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSCOV.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSPVAX.msg" NAME_WE)
 add_custom_target(_novatel_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "novatel_msgs" "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSCOV.msg" "novatel_msgs/CommonHeader"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "novatel_msgs" "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSPVAX.msg" "novatel_msgs/CommonHeader"
 )
 
 #
@@ -58,45 +58,45 @@ add_custom_target(_novatel_msgs_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(novatel_msgs
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/BESTPOS.msg"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSCOV.msg"
   "${MSG_I_FLAGS}"
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/novatel_msgs
 )
 _generate_msg_cpp(novatel_msgs
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSPVAX.msg"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CORRIMUDATA.msg"
   "${MSG_I_FLAGS}"
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/novatel_msgs
 )
 _generate_msg_cpp(novatel_msgs
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/Ack.msg"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/novatel_msgs
 )
 _generate_msg_cpp(novatel_msgs
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/BESTPOS.msg"
+  "${MSG_I_FLAGS}"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/novatel_msgs
+)
+_generate_msg_cpp(novatel_msgs
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonFooter.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/novatel_msgs
 )
 _generate_msg_cpp(novatel_msgs
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonFooter.msg"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/Ack.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/novatel_msgs
 )
 _generate_msg_cpp(novatel_msgs
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CORRIMUDATA.msg"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSPVAX.msg"
   "${MSG_I_FLAGS}"
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/novatel_msgs
-)
-_generate_msg_cpp(novatel_msgs
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSCOV.msg"
-  "${MSG_I_FLAGS}"
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/novatel_msgs
 )
 
@@ -114,19 +114,19 @@ add_custom_target(novatel_msgs_generate_messages_cpp
 add_dependencies(novatel_msgs_generate_messages novatel_msgs_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/BESTPOS.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSCOV.msg" NAME_WE)
 add_dependencies(novatel_msgs_generate_messages_cpp _novatel_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSPVAX.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CORRIMUDATA.msg" NAME_WE)
 add_dependencies(novatel_msgs_generate_messages_cpp _novatel_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/Ack.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg" NAME_WE)
 add_dependencies(novatel_msgs_generate_messages_cpp _novatel_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/BESTPOS.msg" NAME_WE)
 add_dependencies(novatel_msgs_generate_messages_cpp _novatel_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonFooter.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonFooter.msg" NAME_WE)
 add_dependencies(novatel_msgs_generate_messages_cpp _novatel_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CORRIMUDATA.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/Ack.msg" NAME_WE)
 add_dependencies(novatel_msgs_generate_messages_cpp _novatel_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSCOV.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSPVAX.msg" NAME_WE)
 add_dependencies(novatel_msgs_generate_messages_cpp _novatel_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -139,45 +139,45 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS novatel_msgs_generate_messages_cpp)
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(novatel_msgs
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/BESTPOS.msg"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSCOV.msg"
   "${MSG_I_FLAGS}"
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/novatel_msgs
 )
 _generate_msg_eus(novatel_msgs
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSPVAX.msg"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CORRIMUDATA.msg"
   "${MSG_I_FLAGS}"
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/novatel_msgs
 )
 _generate_msg_eus(novatel_msgs
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/Ack.msg"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/novatel_msgs
 )
 _generate_msg_eus(novatel_msgs
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/BESTPOS.msg"
+  "${MSG_I_FLAGS}"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/novatel_msgs
+)
+_generate_msg_eus(novatel_msgs
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonFooter.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/novatel_msgs
 )
 _generate_msg_eus(novatel_msgs
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonFooter.msg"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/Ack.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/novatel_msgs
 )
 _generate_msg_eus(novatel_msgs
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CORRIMUDATA.msg"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSPVAX.msg"
   "${MSG_I_FLAGS}"
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/novatel_msgs
-)
-_generate_msg_eus(novatel_msgs
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSCOV.msg"
-  "${MSG_I_FLAGS}"
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/novatel_msgs
 )
 
@@ -195,19 +195,19 @@ add_custom_target(novatel_msgs_generate_messages_eus
 add_dependencies(novatel_msgs_generate_messages novatel_msgs_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/BESTPOS.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSCOV.msg" NAME_WE)
 add_dependencies(novatel_msgs_generate_messages_eus _novatel_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSPVAX.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CORRIMUDATA.msg" NAME_WE)
 add_dependencies(novatel_msgs_generate_messages_eus _novatel_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/Ack.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg" NAME_WE)
 add_dependencies(novatel_msgs_generate_messages_eus _novatel_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/BESTPOS.msg" NAME_WE)
 add_dependencies(novatel_msgs_generate_messages_eus _novatel_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonFooter.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonFooter.msg" NAME_WE)
 add_dependencies(novatel_msgs_generate_messages_eus _novatel_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CORRIMUDATA.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/Ack.msg" NAME_WE)
 add_dependencies(novatel_msgs_generate_messages_eus _novatel_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSCOV.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSPVAX.msg" NAME_WE)
 add_dependencies(novatel_msgs_generate_messages_eus _novatel_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -220,45 +220,45 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS novatel_msgs_generate_messages_eus)
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(novatel_msgs
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/BESTPOS.msg"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSCOV.msg"
   "${MSG_I_FLAGS}"
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/novatel_msgs
 )
 _generate_msg_lisp(novatel_msgs
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSPVAX.msg"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CORRIMUDATA.msg"
   "${MSG_I_FLAGS}"
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/novatel_msgs
 )
 _generate_msg_lisp(novatel_msgs
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/Ack.msg"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/novatel_msgs
 )
 _generate_msg_lisp(novatel_msgs
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/BESTPOS.msg"
+  "${MSG_I_FLAGS}"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/novatel_msgs
+)
+_generate_msg_lisp(novatel_msgs
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonFooter.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/novatel_msgs
 )
 _generate_msg_lisp(novatel_msgs
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonFooter.msg"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/Ack.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/novatel_msgs
 )
 _generate_msg_lisp(novatel_msgs
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CORRIMUDATA.msg"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSPVAX.msg"
   "${MSG_I_FLAGS}"
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/novatel_msgs
-)
-_generate_msg_lisp(novatel_msgs
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSCOV.msg"
-  "${MSG_I_FLAGS}"
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/novatel_msgs
 )
 
@@ -276,19 +276,19 @@ add_custom_target(novatel_msgs_generate_messages_lisp
 add_dependencies(novatel_msgs_generate_messages novatel_msgs_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/BESTPOS.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSCOV.msg" NAME_WE)
 add_dependencies(novatel_msgs_generate_messages_lisp _novatel_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSPVAX.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CORRIMUDATA.msg" NAME_WE)
 add_dependencies(novatel_msgs_generate_messages_lisp _novatel_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/Ack.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg" NAME_WE)
 add_dependencies(novatel_msgs_generate_messages_lisp _novatel_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/BESTPOS.msg" NAME_WE)
 add_dependencies(novatel_msgs_generate_messages_lisp _novatel_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonFooter.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonFooter.msg" NAME_WE)
 add_dependencies(novatel_msgs_generate_messages_lisp _novatel_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CORRIMUDATA.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/Ack.msg" NAME_WE)
 add_dependencies(novatel_msgs_generate_messages_lisp _novatel_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSCOV.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSPVAX.msg" NAME_WE)
 add_dependencies(novatel_msgs_generate_messages_lisp _novatel_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -301,45 +301,45 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS novatel_msgs_generate_messages_lisp
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(novatel_msgs
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/BESTPOS.msg"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSCOV.msg"
   "${MSG_I_FLAGS}"
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/novatel_msgs
 )
 _generate_msg_py(novatel_msgs
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSPVAX.msg"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CORRIMUDATA.msg"
   "${MSG_I_FLAGS}"
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/novatel_msgs
 )
 _generate_msg_py(novatel_msgs
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/Ack.msg"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/novatel_msgs
 )
 _generate_msg_py(novatel_msgs
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/BESTPOS.msg"
+  "${MSG_I_FLAGS}"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/novatel_msgs
+)
+_generate_msg_py(novatel_msgs
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonFooter.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/novatel_msgs
 )
 _generate_msg_py(novatel_msgs
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonFooter.msg"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/Ack.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/novatel_msgs
 )
 _generate_msg_py(novatel_msgs
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CORRIMUDATA.msg"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSPVAX.msg"
   "${MSG_I_FLAGS}"
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/novatel_msgs
-)
-_generate_msg_py(novatel_msgs
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSCOV.msg"
-  "${MSG_I_FLAGS}"
-  "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
+  "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/novatel_msgs
 )
 
@@ -357,19 +357,19 @@ add_custom_target(novatel_msgs_generate_messages_py
 add_dependencies(novatel_msgs_generate_messages novatel_msgs_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/BESTPOS.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSCOV.msg" NAME_WE)
 add_dependencies(novatel_msgs_generate_messages_py _novatel_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSPVAX.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CORRIMUDATA.msg" NAME_WE)
 add_dependencies(novatel_msgs_generate_messages_py _novatel_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/Ack.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg" NAME_WE)
 add_dependencies(novatel_msgs_generate_messages_py _novatel_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/BESTPOS.msg" NAME_WE)
 add_dependencies(novatel_msgs_generate_messages_py _novatel_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonFooter.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonFooter.msg" NAME_WE)
 add_dependencies(novatel_msgs_generate_messages_py _novatel_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CORRIMUDATA.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/Ack.msg" NAME_WE)
 add_dependencies(novatel_msgs_generate_messages_py _novatel_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSCOV.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSPVAX.msg" NAME_WE)
 add_dependencies(novatel_msgs_generate_messages_py _novatel_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

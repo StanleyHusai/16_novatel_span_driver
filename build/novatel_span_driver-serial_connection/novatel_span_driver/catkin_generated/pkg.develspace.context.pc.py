@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "novatel_span_driver"
-PROJECT_SPACE_DIR = "/home/wenws/16_novatel_span_driver/devel"
+PROJECT_SPACE_DIR = "/home/husai/16_novatel_span_driver/devel"
 PROJECT_VERSION = "1.0.0"

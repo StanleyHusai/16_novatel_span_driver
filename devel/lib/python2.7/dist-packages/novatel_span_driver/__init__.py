@@ -7,7 +7,7 @@ from sys import path as sys_path
 
 from pkgutil import extend_path
 
-__extended_path = "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_span_driver/src".split(";")
+__extended_path = "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_span_driver/src".split(";")
 for p in reversed(__extended_path):
     sys_path.insert(0, p)
     del p

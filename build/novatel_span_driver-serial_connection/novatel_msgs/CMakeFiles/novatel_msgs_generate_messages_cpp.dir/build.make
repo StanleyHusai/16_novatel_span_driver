@@ -35,85 +35,85 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wenws/16_novatel_span_driver/src
+CMAKE_SOURCE_DIR = /home/husai/16_novatel_span_driver/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wenws/16_novatel_span_driver/build
+CMAKE_BINARY_DIR = /home/husai/16_novatel_span_driver/build
 
 # Utility rule file for novatel_msgs_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/novatel_msgs_generate_messages_cpp.dir/progress.make
 
-novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/novatel_msgs_generate_messages_cpp: /home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/BESTPOS.h
-novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/novatel_msgs_generate_messages_cpp: /home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/INSPVAX.h
-novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/novatel_msgs_generate_messages_cpp: /home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/Ack.h
-novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/novatel_msgs_generate_messages_cpp: /home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/CommonHeader.h
-novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/novatel_msgs_generate_messages_cpp: /home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/CommonFooter.h
-novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/novatel_msgs_generate_messages_cpp: /home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/CORRIMUDATA.h
-novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/novatel_msgs_generate_messages_cpp: /home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/INSCOV.h
+novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/novatel_msgs_generate_messages_cpp: /home/husai/16_novatel_span_driver/devel/include/novatel_msgs/INSCOV.h
+novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/novatel_msgs_generate_messages_cpp: /home/husai/16_novatel_span_driver/devel/include/novatel_msgs/CORRIMUDATA.h
+novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/novatel_msgs_generate_messages_cpp: /home/husai/16_novatel_span_driver/devel/include/novatel_msgs/CommonHeader.h
+novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/novatel_msgs_generate_messages_cpp: /home/husai/16_novatel_span_driver/devel/include/novatel_msgs/BESTPOS.h
+novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/novatel_msgs_generate_messages_cpp: /home/husai/16_novatel_span_driver/devel/include/novatel_msgs/CommonFooter.h
+novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/novatel_msgs_generate_messages_cpp: /home/husai/16_novatel_span_driver/devel/include/novatel_msgs/Ack.h
+novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/novatel_msgs_generate_messages_cpp: /home/husai/16_novatel_span_driver/devel/include/novatel_msgs/INSPVAX.h
 
-/home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/BESTPOS.h: /opt/ros/jade/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/BESTPOS.h: /home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/BESTPOS.msg
-/home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/BESTPOS.h: /home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg
-/home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/BESTPOS.h: /opt/ros/jade/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/wenws/16_novatel_span_driver/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from novatel_msgs/BESTPOS.msg"
-	cd /home/wenws/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/jade/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/BESTPOS.msg -Inovatel_msgs:/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg -Igeometry_msgs:/opt/ros/jade/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/jade/share/std_msgs/cmake/../msg -Inav_msgs:/opt/ros/jade/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/jade/share/actionlib_msgs/cmake/../msg -p novatel_msgs -o /home/wenws/16_novatel_span_driver/devel/include/novatel_msgs -e /opt/ros/jade/share/gencpp/cmake/..
-
-/home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/INSPVAX.h: /opt/ros/jade/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/INSPVAX.h: /home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSPVAX.msg
-/home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/INSPVAX.h: /home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg
-/home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/INSPVAX.h: /opt/ros/jade/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/wenws/16_novatel_span_driver/build/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from novatel_msgs/INSPVAX.msg"
-	cd /home/wenws/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/jade/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSPVAX.msg -Inovatel_msgs:/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg -Igeometry_msgs:/opt/ros/jade/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/jade/share/std_msgs/cmake/../msg -Inav_msgs:/opt/ros/jade/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/jade/share/actionlib_msgs/cmake/../msg -p novatel_msgs -o /home/wenws/16_novatel_span_driver/devel/include/novatel_msgs -e /opt/ros/jade/share/gencpp/cmake/..
-
-/home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/Ack.h: /opt/ros/jade/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/Ack.h: /home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/Ack.msg
-/home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/Ack.h: /opt/ros/jade/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/wenws/16_novatel_span_driver/build/CMakeFiles $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from novatel_msgs/Ack.msg"
-	cd /home/wenws/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/jade/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/Ack.msg -Inovatel_msgs:/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg -Igeometry_msgs:/opt/ros/jade/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/jade/share/std_msgs/cmake/../msg -Inav_msgs:/opt/ros/jade/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/jade/share/actionlib_msgs/cmake/../msg -p novatel_msgs -o /home/wenws/16_novatel_span_driver/devel/include/novatel_msgs -e /opt/ros/jade/share/gencpp/cmake/..
-
-/home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/CommonHeader.h: /opt/ros/jade/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/CommonHeader.h: /home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg
-/home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/CommonHeader.h: /opt/ros/jade/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/wenws/16_novatel_span_driver/build/CMakeFiles $(CMAKE_PROGRESS_4)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from novatel_msgs/CommonHeader.msg"
-	cd /home/wenws/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/jade/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg -Inovatel_msgs:/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg -Igeometry_msgs:/opt/ros/jade/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/jade/share/std_msgs/cmake/../msg -Inav_msgs:/opt/ros/jade/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/jade/share/actionlib_msgs/cmake/../msg -p novatel_msgs -o /home/wenws/16_novatel_span_driver/devel/include/novatel_msgs -e /opt/ros/jade/share/gencpp/cmake/..
-
-/home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/CommonFooter.h: /opt/ros/jade/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/CommonFooter.h: /home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonFooter.msg
-/home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/CommonFooter.h: /opt/ros/jade/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/wenws/16_novatel_span_driver/build/CMakeFiles $(CMAKE_PROGRESS_5)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from novatel_msgs/CommonFooter.msg"
-	cd /home/wenws/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/jade/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonFooter.msg -Inovatel_msgs:/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg -Igeometry_msgs:/opt/ros/jade/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/jade/share/std_msgs/cmake/../msg -Inav_msgs:/opt/ros/jade/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/jade/share/actionlib_msgs/cmake/../msg -p novatel_msgs -o /home/wenws/16_novatel_span_driver/devel/include/novatel_msgs -e /opt/ros/jade/share/gencpp/cmake/..
-
-/home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/CORRIMUDATA.h: /opt/ros/jade/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/CORRIMUDATA.h: /home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CORRIMUDATA.msg
-/home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/CORRIMUDATA.h: /home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg
-/home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/CORRIMUDATA.h: /opt/ros/jade/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/wenws/16_novatel_span_driver/build/CMakeFiles $(CMAKE_PROGRESS_6)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from novatel_msgs/CORRIMUDATA.msg"
-	cd /home/wenws/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/jade/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CORRIMUDATA.msg -Inovatel_msgs:/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg -Igeometry_msgs:/opt/ros/jade/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/jade/share/std_msgs/cmake/../msg -Inav_msgs:/opt/ros/jade/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/jade/share/actionlib_msgs/cmake/../msg -p novatel_msgs -o /home/wenws/16_novatel_span_driver/devel/include/novatel_msgs -e /opt/ros/jade/share/gencpp/cmake/..
-
-/home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/INSCOV.h: /opt/ros/jade/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/INSCOV.h: /home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSCOV.msg
-/home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/INSCOV.h: /home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg
-/home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/INSCOV.h: /opt/ros/jade/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/wenws/16_novatel_span_driver/build/CMakeFiles $(CMAKE_PROGRESS_7)
+/home/husai/16_novatel_span_driver/devel/include/novatel_msgs/INSCOV.h: /opt/ros/jade/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/husai/16_novatel_span_driver/devel/include/novatel_msgs/INSCOV.h: /home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSCOV.msg
+/home/husai/16_novatel_span_driver/devel/include/novatel_msgs/INSCOV.h: /home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg
+/home/husai/16_novatel_span_driver/devel/include/novatel_msgs/INSCOV.h: /opt/ros/jade/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/husai/16_novatel_span_driver/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from novatel_msgs/INSCOV.msg"
-	cd /home/wenws/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/jade/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSCOV.msg -Inovatel_msgs:/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg -Igeometry_msgs:/opt/ros/jade/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/jade/share/std_msgs/cmake/../msg -Inav_msgs:/opt/ros/jade/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/jade/share/actionlib_msgs/cmake/../msg -p novatel_msgs -o /home/wenws/16_novatel_span_driver/devel/include/novatel_msgs -e /opt/ros/jade/share/gencpp/cmake/..
+	cd /home/husai/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/jade/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSCOV.msg -Inovatel_msgs:/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg -Igeometry_msgs:/opt/ros/jade/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/jade/share/std_msgs/cmake/../msg -Inav_msgs:/opt/ros/jade/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/jade/share/actionlib_msgs/cmake/../msg -p novatel_msgs -o /home/husai/16_novatel_span_driver/devel/include/novatel_msgs -e /opt/ros/jade/share/gencpp/cmake/..
+
+/home/husai/16_novatel_span_driver/devel/include/novatel_msgs/CORRIMUDATA.h: /opt/ros/jade/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/husai/16_novatel_span_driver/devel/include/novatel_msgs/CORRIMUDATA.h: /home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CORRIMUDATA.msg
+/home/husai/16_novatel_span_driver/devel/include/novatel_msgs/CORRIMUDATA.h: /home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg
+/home/husai/16_novatel_span_driver/devel/include/novatel_msgs/CORRIMUDATA.h: /opt/ros/jade/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/husai/16_novatel_span_driver/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from novatel_msgs/CORRIMUDATA.msg"
+	cd /home/husai/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/jade/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CORRIMUDATA.msg -Inovatel_msgs:/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg -Igeometry_msgs:/opt/ros/jade/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/jade/share/std_msgs/cmake/../msg -Inav_msgs:/opt/ros/jade/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/jade/share/actionlib_msgs/cmake/../msg -p novatel_msgs -o /home/husai/16_novatel_span_driver/devel/include/novatel_msgs -e /opt/ros/jade/share/gencpp/cmake/..
+
+/home/husai/16_novatel_span_driver/devel/include/novatel_msgs/CommonHeader.h: /opt/ros/jade/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/husai/16_novatel_span_driver/devel/include/novatel_msgs/CommonHeader.h: /home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg
+/home/husai/16_novatel_span_driver/devel/include/novatel_msgs/CommonHeader.h: /opt/ros/jade/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/husai/16_novatel_span_driver/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from novatel_msgs/CommonHeader.msg"
+	cd /home/husai/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/jade/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg -Inovatel_msgs:/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg -Igeometry_msgs:/opt/ros/jade/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/jade/share/std_msgs/cmake/../msg -Inav_msgs:/opt/ros/jade/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/jade/share/actionlib_msgs/cmake/../msg -p novatel_msgs -o /home/husai/16_novatel_span_driver/devel/include/novatel_msgs -e /opt/ros/jade/share/gencpp/cmake/..
+
+/home/husai/16_novatel_span_driver/devel/include/novatel_msgs/BESTPOS.h: /opt/ros/jade/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/husai/16_novatel_span_driver/devel/include/novatel_msgs/BESTPOS.h: /home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/BESTPOS.msg
+/home/husai/16_novatel_span_driver/devel/include/novatel_msgs/BESTPOS.h: /home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg
+/home/husai/16_novatel_span_driver/devel/include/novatel_msgs/BESTPOS.h: /opt/ros/jade/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/husai/16_novatel_span_driver/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from novatel_msgs/BESTPOS.msg"
+	cd /home/husai/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/jade/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/BESTPOS.msg -Inovatel_msgs:/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg -Igeometry_msgs:/opt/ros/jade/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/jade/share/std_msgs/cmake/../msg -Inav_msgs:/opt/ros/jade/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/jade/share/actionlib_msgs/cmake/../msg -p novatel_msgs -o /home/husai/16_novatel_span_driver/devel/include/novatel_msgs -e /opt/ros/jade/share/gencpp/cmake/..
+
+/home/husai/16_novatel_span_driver/devel/include/novatel_msgs/CommonFooter.h: /opt/ros/jade/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/husai/16_novatel_span_driver/devel/include/novatel_msgs/CommonFooter.h: /home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonFooter.msg
+/home/husai/16_novatel_span_driver/devel/include/novatel_msgs/CommonFooter.h: /opt/ros/jade/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/husai/16_novatel_span_driver/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from novatel_msgs/CommonFooter.msg"
+	cd /home/husai/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/jade/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonFooter.msg -Inovatel_msgs:/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg -Igeometry_msgs:/opt/ros/jade/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/jade/share/std_msgs/cmake/../msg -Inav_msgs:/opt/ros/jade/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/jade/share/actionlib_msgs/cmake/../msg -p novatel_msgs -o /home/husai/16_novatel_span_driver/devel/include/novatel_msgs -e /opt/ros/jade/share/gencpp/cmake/..
+
+/home/husai/16_novatel_span_driver/devel/include/novatel_msgs/Ack.h: /opt/ros/jade/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/husai/16_novatel_span_driver/devel/include/novatel_msgs/Ack.h: /home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/Ack.msg
+/home/husai/16_novatel_span_driver/devel/include/novatel_msgs/Ack.h: /opt/ros/jade/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/husai/16_novatel_span_driver/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from novatel_msgs/Ack.msg"
+	cd /home/husai/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/jade/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/Ack.msg -Inovatel_msgs:/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg -Igeometry_msgs:/opt/ros/jade/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/jade/share/std_msgs/cmake/../msg -Inav_msgs:/opt/ros/jade/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/jade/share/actionlib_msgs/cmake/../msg -p novatel_msgs -o /home/husai/16_novatel_span_driver/devel/include/novatel_msgs -e /opt/ros/jade/share/gencpp/cmake/..
+
+/home/husai/16_novatel_span_driver/devel/include/novatel_msgs/INSPVAX.h: /opt/ros/jade/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/husai/16_novatel_span_driver/devel/include/novatel_msgs/INSPVAX.h: /home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSPVAX.msg
+/home/husai/16_novatel_span_driver/devel/include/novatel_msgs/INSPVAX.h: /home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/CommonHeader.msg
+/home/husai/16_novatel_span_driver/devel/include/novatel_msgs/INSPVAX.h: /opt/ros/jade/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/husai/16_novatel_span_driver/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from novatel_msgs/INSPVAX.msg"
+	cd /home/husai/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/jade/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg/INSPVAX.msg -Inovatel_msgs:/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs/msg -Igeometry_msgs:/opt/ros/jade/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/jade/share/std_msgs/cmake/../msg -Inav_msgs:/opt/ros/jade/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/jade/share/actionlib_msgs/cmake/../msg -p novatel_msgs -o /home/husai/16_novatel_span_driver/devel/include/novatel_msgs -e /opt/ros/jade/share/gencpp/cmake/..
 
 novatel_msgs_generate_messages_cpp: novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/novatel_msgs_generate_messages_cpp
-novatel_msgs_generate_messages_cpp: /home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/BESTPOS.h
-novatel_msgs_generate_messages_cpp: /home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/INSPVAX.h
-novatel_msgs_generate_messages_cpp: /home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/Ack.h
-novatel_msgs_generate_messages_cpp: /home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/CommonHeader.h
-novatel_msgs_generate_messages_cpp: /home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/CommonFooter.h
-novatel_msgs_generate_messages_cpp: /home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/CORRIMUDATA.h
-novatel_msgs_generate_messages_cpp: /home/wenws/16_novatel_span_driver/devel/include/novatel_msgs/INSCOV.h
+novatel_msgs_generate_messages_cpp: /home/husai/16_novatel_span_driver/devel/include/novatel_msgs/INSCOV.h
+novatel_msgs_generate_messages_cpp: /home/husai/16_novatel_span_driver/devel/include/novatel_msgs/CORRIMUDATA.h
+novatel_msgs_generate_messages_cpp: /home/husai/16_novatel_span_driver/devel/include/novatel_msgs/CommonHeader.h
+novatel_msgs_generate_messages_cpp: /home/husai/16_novatel_span_driver/devel/include/novatel_msgs/BESTPOS.h
+novatel_msgs_generate_messages_cpp: /home/husai/16_novatel_span_driver/devel/include/novatel_msgs/CommonFooter.h
+novatel_msgs_generate_messages_cpp: /home/husai/16_novatel_span_driver/devel/include/novatel_msgs/Ack.h
+novatel_msgs_generate_messages_cpp: /home/husai/16_novatel_span_driver/devel/include/novatel_msgs/INSPVAX.h
 novatel_msgs_generate_messages_cpp: novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/novatel_msgs_generate_messages_cpp.dir/build.make
 .PHONY : novatel_msgs_generate_messages_cpp
 
@@ -122,10 +122,10 @@ novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/novatel_msgs_gener
 .PHONY : novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/novatel_msgs_generate_messages_cpp.dir/build
 
 novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/novatel_msgs_generate_messages_cpp.dir/clean:
-	cd /home/wenws/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_msgs && $(CMAKE_COMMAND) -P CMakeFiles/novatel_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/husai/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_msgs && $(CMAKE_COMMAND) -P CMakeFiles/novatel_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/novatel_msgs_generate_messages_cpp.dir/clean
 
 novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/novatel_msgs_generate_messages_cpp.dir/depend:
-	cd /home/wenws/16_novatel_span_driver/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wenws/16_novatel_span_driver/src /home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs /home/wenws/16_novatel_span_driver/build /home/wenws/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_msgs /home/wenws/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/novatel_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/husai/16_novatel_span_driver/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/husai/16_novatel_span_driver/src /home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs /home/husai/16_novatel_span_driver/build /home/husai/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_msgs /home/husai/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/novatel_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/novatel_msgs_generate_messages_cpp.dir/depend
 

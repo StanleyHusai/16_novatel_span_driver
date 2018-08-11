@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wenws/16_novatel_span_driver/src
+CMAKE_SOURCE_DIR = /home/husai/16_novatel_span_driver/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wenws/16_novatel_span_driver/build
+CMAKE_BINARY_DIR = /home/husai/16_novatel_span_driver/build
 
 # Utility rule file for clean_test_results_novatel_span_driver.
 
@@ -46,7 +46,7 @@ CMAKE_BINARY_DIR = /home/wenws/16_novatel_span_driver/build
 include novatel_span_driver-serial_connection/novatel_span_driver/CMakeFiles/clean_test_results_novatel_span_driver.dir/progress.make
 
 novatel_span_driver-serial_connection/novatel_span_driver/CMakeFiles/clean_test_results_novatel_span_driver:
-	cd /home/wenws/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_span_driver && /usr/bin/python /opt/ros/jade/share/catkin/cmake/test/remove_test_results.py /home/wenws/16_novatel_span_driver/build/test_results/novatel_span_driver
+	cd /home/husai/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_span_driver && /usr/bin/python /opt/ros/jade/share/catkin/cmake/test/remove_test_results.py /home/husai/16_novatel_span_driver/build/test_results/novatel_span_driver
 
 clean_test_results_novatel_span_driver: novatel_span_driver-serial_connection/novatel_span_driver/CMakeFiles/clean_test_results_novatel_span_driver
 clean_test_results_novatel_span_driver: novatel_span_driver-serial_connection/novatel_span_driver/CMakeFiles/clean_test_results_novatel_span_driver.dir/build.make
@@ -57,10 +57,10 @@ novatel_span_driver-serial_connection/novatel_span_driver/CMakeFiles/clean_test_
 .PHONY : novatel_span_driver-serial_connection/novatel_span_driver/CMakeFiles/clean_test_results_novatel_span_driver.dir/build
 
 novatel_span_driver-serial_connection/novatel_span_driver/CMakeFiles/clean_test_results_novatel_span_driver.dir/clean:
-	cd /home/wenws/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_span_driver && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_novatel_span_driver.dir/cmake_clean.cmake
+	cd /home/husai/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_span_driver && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_novatel_span_driver.dir/cmake_clean.cmake
 .PHONY : novatel_span_driver-serial_connection/novatel_span_driver/CMakeFiles/clean_test_results_novatel_span_driver.dir/clean
 
 novatel_span_driver-serial_connection/novatel_span_driver/CMakeFiles/clean_test_results_novatel_span_driver.dir/depend:
-	cd /home/wenws/16_novatel_span_driver/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wenws/16_novatel_span_driver/src /home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_span_driver /home/wenws/16_novatel_span_driver/build /home/wenws/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_span_driver /home/wenws/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_span_driver/CMakeFiles/clean_test_results_novatel_span_driver.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/husai/16_novatel_span_driver/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/husai/16_novatel_span_driver/src /home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_span_driver /home/husai/16_novatel_span_driver/build /home/husai/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_span_driver /home/husai/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_span_driver/CMakeFiles/clean_test_results_novatel_span_driver.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : novatel_span_driver-serial_connection/novatel_span_driver/CMakeFiles/clean_test_results_novatel_span_driver.dir/depend
 

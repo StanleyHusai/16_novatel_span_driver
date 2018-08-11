@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wenws/16_novatel_span_driver/src
+CMAKE_SOURCE_DIR = /home/husai/16_novatel_span_driver/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wenws/16_novatel_span_driver/build
+CMAKE_BINARY_DIR = /home/husai/16_novatel_span_driver/build
 
 # Utility rule file for nav_msgs_generate_messages_py.
 
@@ -56,10 +56,10 @@ novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/nav_msgs_generate_
 .PHONY : novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/nav_msgs_generate_messages_py.dir/build
 
 novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/nav_msgs_generate_messages_py.dir/clean:
-	cd /home/wenws/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_msgs && $(CMAKE_COMMAND) -P CMakeFiles/nav_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/husai/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_msgs && $(CMAKE_COMMAND) -P CMakeFiles/nav_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/nav_msgs_generate_messages_py.dir/clean
 
 novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/nav_msgs_generate_messages_py.dir/depend:
-	cd /home/wenws/16_novatel_span_driver/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wenws/16_novatel_span_driver/src /home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs /home/wenws/16_novatel_span_driver/build /home/wenws/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_msgs /home/wenws/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/nav_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/husai/16_novatel_span_driver/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/husai/16_novatel_span_driver/src /home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_msgs /home/husai/16_novatel_span_driver/build /home/husai/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_msgs /home/husai/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/nav_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : novatel_span_driver-serial_connection/novatel_msgs/CMakeFiles/nav_msgs_generate_messages_py.dir/depend
 

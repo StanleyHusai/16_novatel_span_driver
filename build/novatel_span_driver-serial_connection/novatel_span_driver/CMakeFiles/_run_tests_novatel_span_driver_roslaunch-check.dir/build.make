@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wenws/16_novatel_span_driver/src
+CMAKE_SOURCE_DIR = /home/husai/16_novatel_span_driver/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wenws/16_novatel_span_driver/build
+CMAKE_BINARY_DIR = /home/husai/16_novatel_span_driver/build
 
 # Utility rule file for _run_tests_novatel_span_driver_roslaunch-check.
 
@@ -56,10 +56,10 @@ novatel_span_driver-serial_connection/novatel_span_driver/CMakeFiles/_run_tests_
 .PHONY : novatel_span_driver-serial_connection/novatel_span_driver/CMakeFiles/_run_tests_novatel_span_driver_roslaunch-check.dir/build
 
 novatel_span_driver-serial_connection/novatel_span_driver/CMakeFiles/_run_tests_novatel_span_driver_roslaunch-check.dir/clean:
-	cd /home/wenws/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_span_driver && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_novatel_span_driver_roslaunch-check.dir/cmake_clean.cmake
+	cd /home/husai/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_span_driver && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_novatel_span_driver_roslaunch-check.dir/cmake_clean.cmake
 .PHONY : novatel_span_driver-serial_connection/novatel_span_driver/CMakeFiles/_run_tests_novatel_span_driver_roslaunch-check.dir/clean
 
 novatel_span_driver-serial_connection/novatel_span_driver/CMakeFiles/_run_tests_novatel_span_driver_roslaunch-check.dir/depend:
-	cd /home/wenws/16_novatel_span_driver/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wenws/16_novatel_span_driver/src /home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_span_driver /home/wenws/16_novatel_span_driver/build /home/wenws/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_span_driver /home/wenws/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_span_driver/CMakeFiles/_run_tests_novatel_span_driver_roslaunch-check.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/husai/16_novatel_span_driver/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/husai/16_novatel_span_driver/src /home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_span_driver /home/husai/16_novatel_span_driver/build /home/husai/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_span_driver /home/husai/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_span_driver/CMakeFiles/_run_tests_novatel_span_driver_roslaunch-check.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : novatel_span_driver-serial_connection/novatel_span_driver/CMakeFiles/_run_tests_novatel_span_driver_roslaunch-check.dir/depend
 

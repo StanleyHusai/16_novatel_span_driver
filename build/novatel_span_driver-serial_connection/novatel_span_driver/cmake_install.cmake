@@ -1,8 +1,8 @@
-# Install script for directory: /home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_span_driver
+# Install script for directory: /home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_span_driver
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/wenws/16_novatel_span_driver/install")
+  SET(CMAKE_INSTALL_PREFIX "/home/husai/16_novatel_span_driver/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,29 +33,29 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  INCLUDE("/home/wenws/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_span_driver/catkin_generated/safe_execute_install.cmake")
+  INCLUDE("/home/husai/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_span_driver/catkin_generated/safe_execute_install.cmake")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/wenws/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_span_driver/catkin_generated/installspace/novatel_span_driver.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/husai/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_span_driver/catkin_generated/installspace/novatel_span_driver.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/novatel_span_driver/cmake" TYPE FILE FILES
-    "/home/wenws/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_span_driver/catkin_generated/installspace/novatel_span_driverConfig.cmake"
-    "/home/wenws/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_span_driver/catkin_generated/installspace/novatel_span_driverConfig-version.cmake"
+    "/home/husai/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_span_driver/catkin_generated/installspace/novatel_span_driverConfig.cmake"
+    "/home/husai/16_novatel_span_driver/build/novatel_span_driver-serial_connection/novatel_span_driver/catkin_generated/installspace/novatel_span_driverConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/novatel_span_driver" TYPE FILE FILES "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_span_driver/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/novatel_span_driver" TYPE FILE FILES "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_span_driver/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/novatel_span_driver" TYPE PROGRAM FILES "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_span_driver/scripts/driver")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/novatel_span_driver" TYPE PROGRAM FILES "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_span_driver/scripts/driver")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/novatel_span_driver" TYPE DIRECTORY FILES "/home/wenws/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_span_driver/launch")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/novatel_span_driver" TYPE DIRECTORY FILES "/home/husai/16_novatel_span_driver/src/novatel_span_driver-serial_connection/novatel_span_driver/launch")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
