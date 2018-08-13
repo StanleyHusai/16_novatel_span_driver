@@ -7,12 +7,10 @@ Customized Deriver for SPAN-CPT
 
 ## Running the demo
 
-runspan_cpt.sh
-
-More importantly, you may need to change some of the path in the .sh files.
+`$ sudo chmod -R 777 /dev/ttyUSB0`
+`$ ./runspan_cpt.sh`
+in /16_novatel_span_driver
 ```
-Output:
---ADD this later on ..
 ```
 ## License
 
