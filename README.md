@@ -10,6 +10,7 @@ Customized Deriver for SPAN-CPT
 `$ sudo chmod -R 777 /dev/ttyUSB0`
 
 `$ ./runspan_cpt.sh`
+
 in /16_novatel_span_driver
 
 ## License
